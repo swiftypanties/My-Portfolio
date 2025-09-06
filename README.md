@@ -1,1 +1,1 @@
-"# My-Portfolio" 
+This portfolio website is a dynamic showcase of my work, highlighting projects that demonstrate both technical expertise and creative problem-solving. Alongside these case studies, you’ll also find insights into my professional background and experience, all designed to illustrate the unique value I can deliver to clients and collaborators.
