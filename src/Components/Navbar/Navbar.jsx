@@ -6,13 +6,13 @@ function Navbar(){
     return(
         <div className="navbar">
             <img className="navbar-logo" src={logo} alt="Logo" />
-            <ul className="navbar-menu">
-                <li>Home</li>
-                <li>About me</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
-            </ul>
-            <div className="connect">Connect <span>with</span> me</div>
+            
+            <nav className="navbar-menu">
+                <a href="#">Home</a>
+                <a href="#">About me</a>
+                <a href="#">Portfolio</a>
+            </nav>
+            <button className="connect"><span>Connect <span className="with">with</span> me</span></button>
         </div>
     )  
 }

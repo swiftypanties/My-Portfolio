@@ -1,5 +1,5 @@
 import react, { useState } from 'react'
-import logo from "./assets/Logo.png"
+import gradient from "./assets/gradient.png"
 import Navbar from "./Components/Navbar/Navbar"
 
 
@@ -8,6 +8,10 @@ function App() {
     <>
       <div>
        <Navbar></Navbar>
+       <main>
+        <img className="image-gradient" src={gradient} alt="Gradient" />
+        <div className="layer-blur"></div>
+       </main>
       </div>
     </>
   )
