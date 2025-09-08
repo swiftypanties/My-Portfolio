@@ -13,7 +13,7 @@ function Navbar(){
     };
 
     return(
-        <div className="navbar">
+        <div data-aos="fade-down" data-aos-duration="1500" className="navbar">
             <img className="navbar-logo" src={logo} alt="Logo" />
             
             <nav className="navbar-menu">
