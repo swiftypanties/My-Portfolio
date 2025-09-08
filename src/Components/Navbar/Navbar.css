@@ -3,8 +3,7 @@
 /* logo pulse */
 .navbar-logo {
     width: 450px;
-    margin-top: 120px;
-    margin-left: 120px;
+    margin-top: 80px;
     padding:0;
     cursor: pointer;
     pointer-events: visiblePainted;
@@ -22,8 +21,6 @@
 }
 
 
-
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -33,19 +30,19 @@
 }
 
 .navbar-menu {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  gap: 50px;
-  font-size: 30px;
-  margin-right: 450px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    font-size: 30px;
+    margin-right: 0; 
 }
 .navbar-menu a {
-    font-size: 2rem;
-    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.001rem;
     text-decoration: none;
     color: inherit;
-    display: flex;
+    margin-left: 15px;
 }
 .char {
     display: inline-block;
@@ -103,12 +100,11 @@
 
 .with{
     color: #ffffffc9;
-    font-size: 40px;
+    font-style: italic !important;
 }
 
 .btn {
-    margin: 100px;
-    padding: 15px 40px;
+    padding: 12px 40px;
     font-size: 30px;
     border: none;
     outline: none;
