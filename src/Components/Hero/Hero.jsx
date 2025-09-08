@@ -12,7 +12,10 @@ function Hero() {
 
                 <p className="description">
                     Hello my name is david and this is my portfolio<br/>
-                    website.
+                    website.<br/>
+                    you can find my experience and knowledge<br/>
+                    through exploring the website and projects <br/>
+                    displayed ⇓
                 </p>
                 
             </div>
