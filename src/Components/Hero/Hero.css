@@ -1,0 +1,53 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: calc(90vh - 6rem);
+}
+
+.content{
+    max-width: 40rem;
+    margin-left: 10%;
+    z-index: 999;
+}
+
+.tag-box{
+    position: relative;
+    width: 27rem;
+    height: 2.5rem;
+    border-radius: 50px;
+    background: linear-gradient(to right, rgb(216, 203, 219), rgb(163, 29, 163), purple, rgb(105, 42, 163), rgb(131, 131, 131), lightgrey);
+    background-size: 200%;
+}   
+
+
+.tag-box .tag{
+    position: absolute;
+    inset: 3px 3px 3px 3px;
+    background-color: #333;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.tag-box .tag:hover{
+    color:blueviolet;
+}
+
+.content h1{
+    font-size: 5rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    margin: 2rem 0;
+    line-height: 1.2;
+    text-shadow: 0 0 10px rgb(90, 90, 90);
+}
+
+.description{
+    font-size: 1.2rem;
+    letter-spacing: 0.05em;
+    max-width: 35rem;
+    color: gray;
+}
