@@ -158,7 +158,32 @@
   .navbar-menu a { font-size: 1.4rem; }
   .btn { padding: 10px 34px; font-size: 26px; }
 }
+@media (min-width: 1024px) and (max-width: 1550px) {
+  .navbar {
+    margin: 16px 40px;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px 22px;
+  }
+  .navbar-logo { width: 320px; margin-top: 36px; }
 
+  .navbar-menu {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;        
+    gap: 18px 40px;        
+    row-gap: 10px;
+    overflow: visible;
+  }
+  .navbar-menu a {
+    margin-top: 20px;
+    font-size: 1.25rem;
+    white-space: nowrap;  
+  }
+
+  .btn { padding: 10px 28px; font-size: 22px; margin-top: 40px;}
+}
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .navbar {
@@ -166,7 +191,7 @@
     height: auto;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 14px 22px;
+    gap: 40px 22px;
   }
   .navbar-logo { width: 320px; margin-top: 36px; }
 
@@ -204,7 +229,7 @@
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .navbar {
     flex-wrap: wrap;
     justify-content: center;
