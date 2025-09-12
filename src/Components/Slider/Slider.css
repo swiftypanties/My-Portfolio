@@ -1,0 +1,108 @@
+
+.slide-img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+}
+.swiper-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.container{
+    width: 80%;
+}
+.swiper{
+    width: 100%;
+    padding: 60px;
+}
+
+.swiper-slide{
+    position: relative;
+    width: 300px;
+    height: 500px;
+    background: gray;
+    box-shadow: 1px 22px 44px black;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 1s;
+    user-select: none;
+}
+.swiper-slide-active{
+    width: 600px;
+    transition: width 1s ease-in-out;
+    border: solid 3px rgb(163, 89, 182);
+    
+}
+
+.swiper-slide img{
+  .swiper-slide-active {
+    width: 600px;
+    transition: width 1s ease-in-out;
+    border: 3px solid transparent;
+    border-image: linear-gradient(45deg, #a359b6, #da62c0, #ff6b9d, #a359b6) 1;
+}
+}
+
+.swiper-slide-active img {
+    filter: grayscale(0%);
+}
+
+.slide-title{
+    position: absolute;
+    inset:0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 25px 25px 30px;
+}
+
+.slide-title h1{
+    font-size: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: var(--primary-clr);
+    opacity: 0.2;
+    color: rgb(218, 98, 192);
+    transition: 0.8s ease;
+    transition-delay: 0.5s;
+    
+}
+
+.swiper-slide-active .slide-title h1 {
+    opacity: 0.8;
+    transition-delay: -100ms;
+}
+
+.slide-content{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    padding: 25px var(--gap) 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background: rgba(0,0,0,0.5);
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        transparent,
+        rgba(114, 85, 108, 0.2),
+        rgba(78, 60, 87, 0.6)
+    );
+    color: var(--primary-clr);
+    opacity: 0;
+    z-index: 1;
+}
+
+.swiper-slide-active .slide-content{
+    opacity: 1;
+    transition: 0.8s;
+    transition-delay: 0.5s;
+}
