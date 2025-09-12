@@ -63,7 +63,7 @@ function Slider(){
 
     return(
         <main className="swiper-main">
-            <div className="container">
+            <div data-aos="zoom-in-up" data-aos-duration="1500" className="container">
                 <Swiper className= "swiper"
                 modules = {[Pagination]}
                 grabCursor
