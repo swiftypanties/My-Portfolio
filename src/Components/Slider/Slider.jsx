@@ -13,12 +13,27 @@ const data = [
     {
         img: KEEPER,
         title: "Notes-Keeper",
-        description: "hello world"
+        description: "hello world hello world hello world hello world hello world hello world hello world hello world hello world"
     },
      {
         img: DRUMS,
         title: "Drums",
         description: "hello world"
+    },
+    {
+        img: KEEPER,
+        title: "Notes-Keeper",
+        description: "hello world hello world hello world hello world hello world hello world hello world hello world hello world"
+    },
+    {
+        img: DRUMS,
+        title: "Drums",
+        description: "hello world"
+    },
+    {
+        img: KEEPER,
+        title: "Notes-Keeper",
+        description: "hello world hello world hello world hello world hello world hello world hello world hello world hello world"
     }
 ]
 
@@ -56,7 +71,7 @@ function Slider(){
                 centeredSlides
                 slidesPerView="auto"
                 speed={800}
-                slideToClickedSlid
+                slideToClickedSlide={true}
                 pagination={{clickable: true}}
                 breakpoints={{
                     320: {spaceBetween: 40},
@@ -73,7 +88,7 @@ function Slider(){
                             <img className= "slide-img" src={slide.img} alt={slide.title} />
                             <div className="slide-content">
                                 <div className="slide-title"><h1>{slide.title}</h1></div>
-                                <div className="slide-description">{slide.description}</div>
+                                <div className="slide-description"><p>{slide.description}</p></div>
                             </div>
                             
                         </SwiperSlide>
